@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ### Heroku apps need the following things: 
 
 1. A requirements.txt file: 
@@ -43,9 +43,3 @@ heroku pg:psql
  - The tutorial that finally got something up onto the internet for me: 
    - https://dev.to/paultopia/the-easiest-possible-way-to-throw-a-webapp-online-flask--heroku--postgres-185o
  - 
-=======
-## deploying to heroku
-
-1. Create a github repo which will be used to deploy to heroku
-2. 
->>>>>>> 4836840049a4bd439e1cf538d8c131c9304887af
