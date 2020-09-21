@@ -21,7 +21,7 @@ class Dataentry(db.Model):
 @app.route("/submit", methods=["POST"])
 def post_to_db():
     indata = Dataentry(request.form['mydata'])
-    data = copy(indata.__dict__ )
+    data = copy(indata. __dict__ )
     del data["_sa_instance_state"]
     try:
         db.session.add(indata)
@@ -37,6 +37,5 @@ def enter_data():
     return render_template("dataentry.html")
 
 if __name__ == ' __main__':
-    #app.debug = True
-    app.run() 
+    app.run(debug=True) 
 
