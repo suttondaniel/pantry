@@ -2,11 +2,11 @@ certifi==2020.6.20
 click==7.1.2
 Flask==1.1.2
 flask-heroku==0.1.9
-Flask-SQLAlchemy @ file:///tmp/build/80754af9/flask-sqlalchemy_1596836624296/work
+Flask-SQLAlchemy
 gunicorn==20.0.4
 itsdangerous==1.1.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
-psycopg2 @ file:///tmp/build/80754af9/psycopg2_1594305108220/work
-SQLAlchemy @ file:///tmp/build/80754af9/sqlalchemy_1598374728542/work
+psycopg2
+SQLAlchemy
 Werkzeug==1.0.1
